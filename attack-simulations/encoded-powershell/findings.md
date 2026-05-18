@@ -43,7 +43,7 @@ This command launches PowerShell using an encoded command argument.
 ### Splunk Search Query
 
 ```spl
-index=* EventCode=1 Image="*powershell.exe*" CommandLine="*-enc*"
+index=windows_endpoint1 sourcetype="XmlWinEventLog" EventCode=1 Image="*powershell.exe*" "-enc"
 ```
 
 ### Findings
@@ -87,3 +87,19 @@ Potential detection opportunities include:
 This lab demonstrated how Sysmon process creation logging can be used to detect suspicious PowerShell activity.
 
 It also reinforced the importance of centralized logging and command-line visibility for Blue Team investigations.
+
+---
+
+## Screenshots
+
+### PowerShell Execution
+
+![powershell.exe -enc ZQBjAGgAbwAgAEgAZQBsAGwAbwA=](screenshots/powershell%20encoding.png)
+
+### Splunk Search
+
+![index=windows_endpoint1 sourcetype="XmlWinEventLog" EventCode=1 Image="powershell.exe" "-enc"](screenshots/splunk%20powershell%20search.png) 
+
+### Splunk Results
+
+![Splunk Results](screenshots/splunk%20powershell%20results.png)
