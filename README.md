@@ -1,4 +1,4 @@
-# BlueTeam-Briefs
+# BLUETEAM-BRIEFS
 # Blue Team Detection Lab
 
 This repository contains hands-on Blue Team detection engineering and log analysis exercises using:
