@@ -13,7 +13,7 @@ This type of activity is commonly associated with attacker obfuscation and malic
 The following PowerShell command was executed on the Windows test machine:
 
 ```powershell
-powershell.exe -enc ZQBjAGgAbwAgACIASABlAGwAbABvACI=
+powershell.exe -enc ZQBjAGgAbwAgAEgAZQBsAGwAbwA=
 ```
 
 This command launches PowerShell using an encoded command argument.

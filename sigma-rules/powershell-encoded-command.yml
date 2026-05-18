@@ -1,0 +1,19 @@
+title: Suspicious PowerShell Encoded Command
+id: powershell-encoded-command
+status: experimental
+
+logsource:
+  product: windows
+  category: process_creation
+
+detection:
+  selection:
+    Image|endswith:
+      - '\powershell.exe'
+    CommandLine|contains:
+      - '-enc'
+      - '-EncodedCommand'
+
+condition: selection
+
+level: high
