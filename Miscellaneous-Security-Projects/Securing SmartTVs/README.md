@@ -18,6 +18,6 @@ As the article explains, there are a list of DNS hostnames that can be blocked a
 
 Per their recommendation, I logged into my home router and added these domains to my firewall's "blocked" domains:
 
-proxyjs.brdtnet.com
-proxyjs.luminatinet.com
-clientsdk.bright-sdk.com
+**proxyjs.brdtnet.com** and
+**proxyjs.luminatinet.com** and
+**clientsdk.bright-sdk.com**
