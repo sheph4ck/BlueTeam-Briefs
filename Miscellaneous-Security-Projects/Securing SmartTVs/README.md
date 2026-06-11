@@ -12,7 +12,7 @@ Researchers argue many users don't truly understand what they're consenting to, 
 
 This doesn't mean our TVs are "hacked," but it's a reminder that when an app is free, sometimes our bandwidth becomes part of the business model.
 
-# How to combat this
+## How to combat this
 
 As the article explains, there are a list of DNS hostnames that can be blocked at the router-level.
 
